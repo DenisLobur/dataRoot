@@ -116,6 +116,8 @@ def sumFoldLeft(xs: List[Int]): Int = (0 :: xs foldLeft 0) (_ + _)
 
 sumFoldLeft(z)
 
+// answer = 34223
+
 
 
 
