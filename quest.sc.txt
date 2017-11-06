@@ -230,7 +230,7 @@ val cc = a.add(b).add(c).add(d).add(e).add(f).add(g).add(h).add(i).add(j)
   .add(u3).add(v3)
 
 // answer = 5537376230
-val ans5 = "5537376230"
+val ans5 = cc.toString.take(10)
 println(s"#5 - $ans5")
 
 
